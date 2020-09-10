@@ -16,8 +16,8 @@ body{
   }
   
   .carousel-item img {
+      object-fit: contain;
       position: absolute;
-      object-fit:cover;
       top: 0;
       left: 0;
       min-height: 70vh;
