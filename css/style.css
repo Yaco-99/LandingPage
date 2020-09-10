@@ -10815,8 +10815,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 70vh;
-  min-width: 100%;
 }
 
 .carousel-control-prev-icon {
