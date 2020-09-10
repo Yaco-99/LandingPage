@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbarspy" data-offset="0">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbarspy">
             <a class="navbar-brand" href="#">BRAND</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#stage">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#navLatest">Latest</a>
@@ -46,7 +46,7 @@
             </div>
           </nav>
         </header>
-          <div class="stage">
+          <div class="stage" id="stage">
             <div class="stage-text">
             <h1>Welcome to my landing page</h1>
             <p>Come and see all my project</p>
@@ -173,9 +173,6 @@
                           <p>Space school project from openClassroms</p>
                           </div>
                       </div>
-                      
-                    
-                    
                   </div>
                   <a class="carousel-control-prev" href="#carouselSeptember" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
