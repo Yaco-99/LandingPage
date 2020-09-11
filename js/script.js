@@ -42,6 +42,7 @@ openModalButton.addEventListener("click", () => {
       description,
     };
     addproposition(data);
+    myForm.reset();
   };
 
   function addproposition(data){
