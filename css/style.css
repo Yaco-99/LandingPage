@@ -10864,4 +10864,72 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+
+.description {
+  color: green;
+}
+
+.description:hover {
+  color: green;
+}
+
+.addModal {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  z-index: 10;
+}
+
+.addModal.active {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.addModal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.addModal-header h2 {
+  color: #3b4363;
+  margin: 0;
+  font-size: 24px;
+}
+
+.addModal-content {
+  padding: 20px 24px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
 /*# sourceMappingURL=style.css.map */

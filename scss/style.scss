@@ -58,4 +58,57 @@ body{
     color: white;
     margin-top: 2rem;
    }
+   .description{
+       color: green;
+       &:hover{
+           color: green;
+       }
+   }
+   .addModal {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+     &.active {
+        transform: translate(-50%, -50%) scale(1);
+      }
+  }
+  
+  .addModal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    h2 {
+        color: hsl(229, 25%, 31%);
+        margin: 0;
+        font-size: 24px;
+      }
+  }
+
+  .addModal-content {
+    padding: 20px 24px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+  }
+ 
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+        &.active{
+            opacity: 1;
+            pointer-events: all;
+        }
+  }
+
   
