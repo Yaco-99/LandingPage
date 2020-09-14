@@ -9,7 +9,7 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">BRAND</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,13 +64,25 @@
         <div class="row">
             <div class="col">
             <ul class="list-group" id="propositionListe">
-                    <li class="list-group-item p-0">
-                        <div class="d-flex justify-content-between align-items-center pb-1">
+                    <li class="list-group-item p-1">
+                        <div class="d-flex justify-content-between align-items-center p-1">
                         <h4 class="m-0">Proposition's list</h4>
                         <button class="btn btn-primary ml-auto" type="button" id="open-modal-button">New</button>
                         </div>
                     </li>
-                    
+                    <li class="list-group-item p-1">
+                      <div class="d-flex p-1">
+                        <div class="d-flex flex-column">
+                        <a class="pseudo" href="#">Pseudo :</a>
+                        <small class="text-muted">date</small>
+                        </div>
+                        <a class="description ml-1" href="#">Proposition exemple</a>
+                        <div class="ml-auto d-flex align-self-center">
+                        <button type="button" class="btn btn-sm btn-primary description-popover" data-toggle="popover" title="description"
+                        data-content="This is the description of the proposition exemple">Show description</button>
+                        </div>
+                      </div>
+                      </li>         
             </ul>
          </div>
         </div>
@@ -95,8 +107,8 @@
         </div>
       </div>
       <div id="overlay"></div>
-    <footer>
-        <div class="container-fluid justify-content-between bg-dark p-3">
+    <footer class="main-footer">
+        <div class="container-fluid justify-content-between p-3">
             <div class="row justify-content-around">
                 <div class="col-md-4">
                     <h6>Description :</h6>

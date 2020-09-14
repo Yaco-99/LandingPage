@@ -48,7 +48,8 @@ openModalButton.addEventListener("click", () => {
   function addproposition(data){
     const newProposition = document.createElement("li");
     newProposition.classList.add("list-group-item");
-    newProposition.innerHTML = `<div class="d-flex">
+    newProposition.classList.add("p-1");
+    newProposition.innerHTML = `<div class="d-flex p-1">
     <div class="d-flex flex-column">
     <a class="pseudo" href="#">Pseudo :</a>
     <small class="text-muted">date</small>

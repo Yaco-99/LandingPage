@@ -3,11 +3,14 @@
 
 
 body{
-    background-color: rgb(206, 206, 206);
+    background-color: hsl(0, 0%, 7%);
     max-width: 100%;
 }
+h2, h1{
+    color: rgba($color: #ffffff, $alpha: 0.87);
+}
 .carousel .carousel-item {
-    height: 70vh;
+    height: 60vh;
     text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -16,10 +19,10 @@ body{
   }
   
   .carousel-item img {
-      object-fit: contain;
-      position: absolute;
-      top: 0;
-      left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 60vh;
   }
   .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -31,6 +34,9 @@ body{
    .row{
     max-width: 100%;
     margin: auto;
+   }
+   section{
+       margin: 3em 0;
    }
    .stage{
     background: url("../img/alberto-restifo-HYA9Ak06qR8-unsplash.jpg") center center no-repeat;
@@ -54,9 +60,14 @@ body{
    .navbar-nav li{
        margin-right: 1rem;;
    }
-   footer{
-    color: white;
+   .main-footer{
+    border-top: 1px solid rgba($color: #ffffff, $alpha: 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    background-color: hsl(0, 0%, 7%);
     margin-top: 2rem;
+   }
+   .main-header{
+    border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.2);
    }
    .description{
        color: green;
@@ -110,5 +121,48 @@ body{
             pointer-events: all;
         }
   }
+
+.first-quote-bg{
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    opacity: 0.3;
+}
+.second-quote-bg{
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 0;
+    opacity: 0.15;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: rgba($color: #ffffff, $alpha: 0.6);
+}
+blockquote p{
+    font-size: 26px;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -35px;
+    color: rgba(183, 34, 212, 0.6);
+}
+
+
 
   

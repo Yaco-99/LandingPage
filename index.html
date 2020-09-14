@@ -9,7 +9,7 @@
 </head>
 <body data-spy="scroll" data-target="#navbarspy" data-offset="100">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbarspy">
+        <nav class="main-header navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbarspy">
             <a class="navbar-brand" href="#">BRAND</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -49,14 +49,14 @@
             </div>
           </nav>
         </header>
-          <div class="stage" id="stage">
+          <section class="stage" id="stage">
             <div class="stage-text">
             <h1>Welcome to my landing page</h1>
             <p>Come and see all my project</p>
-            </div>
+            </section>
           </div>
-          <div class="row pb-5 py-md-5 justify-content-center" id="navLatest">
-            <div class="col-12 col-lg-8 px-0">
+          <section class="first-section row pb-5 py-md-5" id="navLatest">
+            <div class="col-12 col-lg-5 pl-3">
               <h2 class="my-3">Here are my latest projects</h2>
               <div id="carouselLatest" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -66,6 +66,13 @@
                   </ol>
                   <div class="carousel-inner">
                   <div class="carousel-item active">
+                    <a href="https://yaco-99.github.io/Responsive-zozor/" target="_blank"><img src="img/zozor.png" class="d-block img-fluid" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>14 September</h5>
+                    <p>My first site using bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
                       <a href="https://yaco-99.github.io/Space-school/index.html" target="_blank"><img src="img/SpaceSchool.png" class="d-block img-fluid" alt="..."></a>
                       <div class="carousel-caption d-none d-md-block">
                       <h5>09 September</h5>
@@ -79,13 +86,6 @@
                       <p>My second site using bootstrap</p>
                       </div>
                   </div>
-                  <div class="carousel-item">
-                      <a href="https://yaco-99.github.io/First-bootstrap-project/" target="_blank"><img src="img/First-btsp.png" class="d-block img-fluid" alt="..."></a>
-                      <div class="carousel-caption d-none d-md-block">
-                      <h5>07 September</h5>
-                      <p>My first site using bootstrap</p>
-                      </div>
-                  </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselLatest" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -97,9 +97,23 @@
                   </a>
               </div>
           </div>
-        </div>
-        <div class="row pb-5 py-md-5 justify-content-center" id="navSeptember">
-            <div class="col-12 col-lg-8 px-0">
+          <div class="col col-lg-6 d-flex justify-content-center align-items-center offset-lg-1 py-3 py-lg-0">
+            <blockquote class="blockquote text-right">
+              <p class="mb-0">It's ain't much but it's honest work</p>
+              <footer class="blockquote-footer mt-3">A random farmer</footer>
+            </blockquote>
+            <img class="first-quote-bg" src="img/honestwk.png" alt="">
+          </div>
+        </section>
+        <section class="row pb-5 py-md-5" id="navSeptember">
+          <div class="col col-lg-5 d-flex justify-content-end align-items-center py-3 py-lg-0">
+            <blockquote class="blockquote text-right">
+              <p class="mb-0">I never lose. I either win or learn.</p>
+              <footer class="blockquote-footer mt-3">Nelson Mandela</footer>
+            </blockquote>
+            <img class="second-quote-bg" src="img/Mandela.jpg" alt="">
+          </div>
+            <div class="col-12 col-lg-6 pr-3 offset-lg-1">
               <h2 class="my-3">September project</h2>
               <div id="carouselSeptember" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -176,6 +190,13 @@
                           <p>Space school project from openClassroms</p>
                           </div>
                       </div>
+                      <div class="carousel-item">
+                        <a href="https://yaco-99.github.io/Responsive-zozor/" target="_blank"><img src="img/zozor.png" class="d-block img-fluid" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>14 September</h5>
+                        <p>My first site using bootstrap</p>
+                        </div>
+                      </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselSeptember" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -187,9 +208,9 @@
                   </a>
               </div>
           </div>
-        </div>
-<footer>
-    <div class="container-fluid justify-content-between bg-dark p-3">
+        </section>
+<footer class="main-footer">
+    <div class="container-fluid justify-content-between p-3">
         <div class="row justify-content-around">
             <div class="col-md-4">
                 <h6>Description :</h6>
