@@ -10947,6 +10947,7 @@ section {
 }
 
 .first-quote-bg {
+  min-height: 60vh;
   height: 100%;
   width: 80%;
   position: absolute;
@@ -10955,11 +10956,16 @@ section {
 }
 
 .second-quote-bg {
+  min-height: 60vh;
   height: 100%;
   width: 80%;
   position: absolute;
   left: 0;
   opacity: 0.15;
+}
+
+.quote-container {
+  min-height: 60vh;
 }
 
 blockquote {
