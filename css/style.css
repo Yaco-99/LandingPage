@@ -10830,11 +10830,8 @@ h2, h1 {
 
 .row {
   max-width: 100%;
-  margin: auto;
-}
-
-section {
-  margin: 3em 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .stage {
@@ -10849,6 +10846,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 0;
 }
 
 .stage-text {
@@ -10952,7 +10950,7 @@ section {
   width: 80%;
   position: absolute;
   right: 0;
-  opacity: 0.3;
+  opacity: 0.15;
 }
 
 .second-quote-bg {
@@ -10993,5 +10991,10 @@ blockquote:before {
   left: -20px;
   top: -35px;
   color: rgba(183, 34, 212, 0.6);
+}
+
+section {
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 /*# sourceMappingURL=style.css.map */
