@@ -60,7 +60,7 @@
           <div class="col"><input class="form-control" id="searchInput" type="text" placeholder="Search.."></div>
         </div>
     </div>
-    <div class="container vh-100">
+    <div class="container min-vh-100">
         <div class="row">
             <div class="col">
             <ul class="list-group" id="propositionListe">
@@ -71,14 +71,14 @@
                         </div>
                     </li>
                     <li class="list-group-item p-1">
-                      <div class="d-flex p-1">
+                      <div class="d-flex p-1 flex-column flex-md-row">
                         <div class="d-flex flex-column">
                         <a class="pseudo" href="#">Pseudo :</a>
                         <small class="text-muted">date</small>
                         </div>
                         <a class="description ml-1" href="#">Proposition exemple</a>
-                        <div class="ml-auto d-flex align-self-center">
-                        <button type="button" class="btn btn-sm btn-primary description-popover" data-toggle="popover" title="description"
+                        <div class="ml-md-auto d-flex align-self-center">
+                        <button type="button" class="btn btn-sm btn-primary description-popover" data-toggle="popover" data-placement="top" title="description"
                         data-content="This is the description of the proposition exemple">Show description</button>
                         </div>
                       </div>
@@ -93,14 +93,14 @@
             <h2>New proposition</h2>
             <button class="justify-content-end" data-close-button type="button" id="close-modal-button">X</button>
           </div>
-            <form id="myform">
+            <form id="myform" action="/php/request.php" method="post">
                 <div class="form-group">
                   <label for="proposition">Proposition</label>
-                    <input required type="text" class="form-control" id="proposition">
+                    <input required type="text" class="form-control" id="proposition" name="proposition">
                 </div>
                 <div class="form-group">
                   <label for="description">Description</label>
-                  <textarea rows="5" class="form-control" id="description"></textarea>
+                  <textarea rows="5" class="form-control" id="description" name="description"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" data-close-button data-add-target="#propositionListe">Submit</button>
               </form>
