@@ -1,0 +1,96 @@
+const allMonth = [
+  { month: "January", season: "winter" },
+  { month: "February", season: "winter" },
+  { month: "March", season: "spring" },
+  { month: "April", season: "spring" },
+  { month: "May", season: "spring" },
+  { month: "June", season: "summer" },
+  { month: "July", season: "summer" },
+  { month: "August", season: "summer" },
+  { month: "September", season: "autumn" },
+  { month: "October", season: "autumn" },
+  { month: "November", season: "autumn" },
+  { month: "December", season: "winter" },
+];
+const augustSites = [
+  {
+    link: "https://yaco-99.github.io/First-site/",
+    image: "assets/img/firstsite.png",
+    title: "My very first site",
+    description: "Contain some js but isn't responsive at all",
+    date: "14/08/2020",
+  },
+];
+const septemberSites = [
+  {
+    link: "https://yaco-99.github.io/activeCollab.github.io/",
+    image: "assets/img/ActivCollab.png",
+    title: "Activ.Collab",
+    description: "This is one of my first site bases on a mockup.",
+    date: "01/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/turlututu.github.io/",
+    image: "assets/img/turlututu.png",
+    title: "Turlututu",
+    description: "This is one of my first site bases on a mockup.",
+    date: "01/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/Mon-CV/",
+    image: "assets/img/Cv.png",
+    title: "My CV",
+    description: "This is my cv.",
+    date: "03/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/tim-berners-lee/",
+    image: "assets/img/Tim.png",
+    title: "Tim Berner-Lee",
+    description: "Site about Tim Berner-lee.",
+    date: "03/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/One-pager-Asbl/",
+    image: "assets/img/redCross.png",
+    title: "One pager",
+    description: "This in a not official one pager for the redcross.",
+    date: "06/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/Frontend-mentor-Rock-Paper-Scissors/",
+    image: "assets/img/RpS.png",
+    title: "Rock Paper Scissors",
+    description:
+      "This is a rock paper scissors with a computer and a scoring system.",
+    date: "07/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/First-bootstrap-project/",
+    image: "assets/img/First-btsp.png",
+    title: "Bootstrap-training-1",
+    description: "This is my first site using bootstrap.",
+    date: "07/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/Second-bootstrap-Project/",
+    image: "assets/img/Second-btsp.png",
+    title: "Bootstrap-training-2",
+    description: "This is my second site using bootstrap.",
+    date: "08/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/Space-school/index.html",
+    image: "assets/img/SpaceSchool.png",
+    title: "Space School",
+    description: "This is a Space school site.",
+    date: "09/09/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/Responsive-zozor/",
+    image: "assets/img/zozor.png",
+    title: "Responsive-zozor",
+    description: "Responsive site for @becode.",
+    date: "14/09/2020",
+  },
+];

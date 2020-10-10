@@ -1,0 +1,69 @@
+@import "allSites";
+@import "firstSection";
+@import "parallax";
+@import "request";
+@import "snow";
+@import "stage";
+@import "variable_override";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(0, 0%, 7%);
+  max-width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h2,
+h1 {
+  color: rgba($color: #ffffff, $alpha: 0.87);
+}
+
+.row {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-style {
+  width: 33vw;
+  border-radius: 0 20px 20px;
+}
+.main-header {
+  width: 33vw;
+}
+
+.navbar-nav li {
+  margin-right: 1rem;
+}
+
+.main-footer {
+  border-top: 1px solid rgba($color: #ffffff, $alpha: 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  background-color: hsl(0, 0%, 7%);
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .navbar-style {
+    width: 20vw;
+  }
+  .main-header {
+    width: 20vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .navbar-style {
+    width: 10vw;
+  }
+  .main-header {
+    width: 10vw;
+  }
+}
