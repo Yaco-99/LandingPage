@@ -1,311 +1,645 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <script defer src="assets/js/pathScript.js"></script>
-</head>
-<body data-spy="scroll" data-target="#navbarspy" data-offset="200">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/pathScript.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbarspy" data-offset="200">
     <header>
-        <nav class="main-header navbar navbar-dark fixed-top" id="navbarspy">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav navbar-style bg-dark p-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="#stage">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#navLatest">Latest</a>
-                  </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">2020</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">January</a>
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">February</a>
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">March</a>
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">April</a>
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">May</a>
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">June</a>
-                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">July</a>
-                        <a class="dropdown-item" href="#navAugust">August</a>
-                      <a class="dropdown-item" href="#navSeptember">September</a>
-                      <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">October</a>
-                      <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">November</a>
-                      <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">December</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="all.html">All</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="request.html">Request</a>
-                  </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-          <section class="stage" id="stage">
-            <div class="stage-text">
-            <h1>Welcome to my landing page</h1>
-            <p>Come and see all my projects</p>
-            </section>
-          </div>
-          <section class="first-section row pb-5 d-flex" id="navLatest">
-            <div class="col-12 col-lg-5 pl-3 pl-lg-5 align-self-center">
-              <h2 class="my-3">Here are my latest projects</h2>
-              <div id="carouselLatest" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselLatest" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselLatest" data-slide-to="1"></li>
-                  <li data-target="#carouselLatest" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <a href="https://yaco-99.github.io/restaurant-css-framework/index.html" target="_blank"><img src="assets/img/keller.png" class="d-block img-fluid" alt="..."></a>
-                      <div class="carousel-caption d-none d-md-block">
-                      <h5>25 September</h5>
-                      <p>Fake restaurant site</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="https://yaco-99.github.io/Responsive-zozor/" target="_blank"><img src="assets/img/zozor.png" class="d-block img-fluid" alt="..."></a>
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>14 September</h5>
-                    <p>Responsive site for @becode</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                      <a href="https://yaco-99.github.io/Space-school/index.html" target="_blank"><img src="assets/img/SpaceSchool.png" class="d-block img-fluid" alt="..."></a>
-                      <div class="carousel-caption d-none d-md-block">
-                      <h5>09 September</h5>
-                      <p>Space school project from openClassroms</p>
-                      </div>
-                  </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselLatest" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselLatest" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                  </a>
+      <nav class="main-header navbar navbar-dark fixed-top" id="navbarspy">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-style bg-dark p-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#stage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#navLatest">Latest</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >2020</a
+              >
+              <div class="dropdown-menu">
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >January</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >February</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >March</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >April</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >May</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >June</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >July</a
+                >
+                <a class="dropdown-item" href="#navAugust">August</a>
+                <a class="dropdown-item" href="#navSeptember">September</a>
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >October</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >November</a
+                >
+                <a
+                  class="dropdown-item disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >December</a
+                >
               </div>
-          </div>
-          <div class="quote-container col col-lg-6 d-flex justify-content-center align-items-center offset-lg-1 py-3 pr-lg-5">
-            <blockquote class="blockquote text-right">
-              <p class="mb-0">It's ain't much but it's honest work</p>
-              <footer class="blockquote-footer mt-3">A random farmer</footer>
-            </blockquote>
-            <img class="first-quote-bg" src="assets/img/honestwk.png" alt="">
-          </div>
-          </section>
-          <div class="parallax-wrapper winter-bg container-fluid m-0 mt-3 p-0">
-            <div class="parallax-group">
-              <div class="parallax-layer winter-firstLayer"></div>
-              <div class="parallax-layer winter-secondLayer"></div>
-              <div class="parallax-layer winter-thirdLayer"></div>
-            </div>
-     
-              <div class="snow layer1 a"></div>
-              <div class="snow layer1"></div> 
-              <div class="snow layer2 a"></div>
-              <div class="snow layer2"></div>
-              <div class="snow layer3 a"></div>
-              <div class="snow layer3"></div>
-
-            <div class="parallax-content">
-              <section class="row section-month pb-5" id="navDecember">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>December</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-info" data-month="December">See the projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navJanuary">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>January</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-info" data-month="January">See projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navFebruary">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>February</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-info" data-month="February">See projects</a>
-                </div>
-                </div>
-              </section>
-            </div>
-          </div>
-          <div class="parallax-wrapper spring-bg container-fluid m-0 mt-3 p-0">
-            <div class="parallax-group">
-              <div class="parallax-layer spring-firstLayer"></div>
-              <div class="parallax-layer spring-secondLayer"></div>
-              <div class="parallax-layer spring-thirdLayer"></div>
-            </div>
-            <div class="parallax-content">
-              <section class="row section-month pb-5" id="navMarch">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>March</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-success" data-month="March">See the projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navApril">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>April</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-success" data-month="April">See the projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navMay">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>May</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-success" data-month="May">See the projects</a>
-                </div>
-                </div>
-              </section>
-            </div>
-          </div>
-
-          <div class="parallax-wrapper summer-bg container-fluid m-0 mt-3 p-0">
-            <div class="parallax-group">
-              <div class="parallax-layer summer-firstLayer"></div>
-              <div class="parallax-layer summer-secondLayer"></div>
-              <div class="parallax-layer summer-thirdLayer"></div>
-            </div>
-            <div class="parallax-content">
-              <section class="row section-month pb-5" id="navJune">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>June</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-danger" data-month="June">See the projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navJuly">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>July</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-danger" data-month="July">See the projects</a>
-                </div>
-                </div>
-              </section>
-                <section class="row section-month pb-5" id="navAugust">
-                  <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                  <h2>August</h2>
-                  <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                    <a data-tag-button href="all.html" class="btn btn-danger" data-month="August">See the projects</a>
-  
-                  </div>
-                  </div>
-              </section>
-            </div>
-          </div>
-
-          <div class="parallax-wrapper autumn-bg container-fluid mx-0 my-5 p-0">
-            <div class="parallax-group">
-              <div class="parallax-layer autumn-firstLayer"></div>
-              <div class="parallax-layer autumn-secondLayer"></div>
-              <div class="parallax-layer autumn-thirdLayer"></div>
-            </div>
-            <div class="set">
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves1.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves2.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves3.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves4.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves1.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves2.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves3.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves4.png" alt=""></div>
-            </div>
-            <div class="set secondSet">
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves1.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves2.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves3.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves4.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves1.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves2.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves3.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves4.png" alt=""></div>
-            </div>
-            <div class="set thirdSet">
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves1.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves2.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves3.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves4.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves1.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves2.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves3.png" alt=""></div>
-              <div class="leave"><img src="assets/img/leaves/Leaves/leaves4.png" alt=""></div>
-            </div>
-            <div class="parallax-content">
-              <section class="row section-month pb-5" id="navSeptember">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>September</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-warning" data-month="September">See the projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navOctober">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>October</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-warning" data-month="October">See the projects</a>
-                </div>
-                </div>
-              </section>
-              <section class="row section-month pb-5" id="navNovember">
-                <div class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center">
-                <h2>November</h2>
-                <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                  <a data-tag-button href="all.html" class="btn btn-warning" data-month="November">See the projects</a>
-                </div>
-                </div>
-              </section>
-            </div>
-          </div>
-
-<footer class="main-footer">
-    <div class="container-fluid justify-content-between p-3">
-        <div class="row justify-content-around">
-            <div class="col-md-4">
-                <h6>Description :</h6>
-                <p>I've started my coding journey in September 2020
-                    I'm doing my best to learn as fast as I can !
-                </p>
-            </div>
-        
-            <div class="col-md-4">
-                <h6>Contact :</h6>
-                <ul class="list-unstyled">
-                    <li><a href="https://www.linkedin.com/in/yannick-coopman-8022b0159/" target="_blank">Linkedin</a></li>
-                    <li><a href="https://github.com/Yaco-99" target="_blank">GitHub</a></li>
-                    <li><a href="mailto:coopman.yannick@gmail.com" target="_blank">Coopman.yannick@gmail.com</a></li>
-                    <li><a href="tel:0471577539" target="_blank">0471 57 75 39</a></li>
-                </ul>
-            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="all.html">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="request.html">Request</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </header>
+    <section class="stage" id="stage">
+      <div class="stage-text">
+        <h1>Welcome to my landing page</h1>
+        <p>Come and see all my projects</p>
+      </div>
+    </section>
+    <section class="first-section row pb-5 d-flex" id="navLatest">
+      <div class="col-12 col-lg-5 pl-3 pl-lg-5 align-self-center">
+        <h2 class="my-3">Here are my latest projects</h2>
+        <div id="carouselLatest" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselLatest"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselLatest" data-slide-to="1"></li>
+            <li data-target="#carouselLatest" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a
+                href="https://yaco-99.github.io/restaurant-css-framework/index.html"
+                target="_blank"
+                ><img
+                  src="assets/img/keller.png"
+                  class="d-block img-fluid"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>25 September</h5>
+                <p>Fake restaurant site</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://yaco-99.github.io/Responsive-zozor/"
+                target="_blank"
+                ><img
+                  src="assets/img/zozor.png"
+                  class="d-block img-fluid"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>14 September</h5>
+                <p>Responsive site for @becode</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://yaco-99.github.io/Space-school/index.html"
+                target="_blank"
+                ><img
+                  src="assets/img/SpaceSchool.png"
+                  class="d-block img-fluid"
+                  alt="..."
+              /></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>09 September</h5>
+                <p>Space school project from openClassroms</p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselLatest"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselLatest"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="quote-container col col-lg-6 d-flex justify-content-center align-items-center offset-lg-1 py-3 pr-lg-5"
+      >
+        <blockquote class="blockquote text-right">
+          <p class="mb-0">It's ain't much but it's honest work</p>
+          <footer class="blockquote-footer mt-3">A random farmer</footer>
+        </blockquote>
+        <img class="first-quote-bg" src="assets/img/honestwk.png" alt="" />
+      </div>
+    </section>
+    <div class="parallax-wrapper winter-bg container-fluid m-0 mt-3 p-0">
+      <div class="parallax-group">
+        <div class="parallax-layer winter-firstLayer"></div>
+        <div class="parallax-layer winter-secondLayer"></div>
+        <div class="parallax-layer winter-thirdLayer"></div>
+      </div>
+
+      <div class="snow layer1 a"></div>
+      <div class="snow layer1"></div>
+      <div class="snow layer2 a"></div>
+      <div class="snow layer2"></div>
+      <div class="snow layer3 a"></div>
+      <div class="snow layer3"></div>
+
+      <div class="parallax-content">
+        <section class="row section-month pb-5" id="navDecember">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>December</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-info"
+                data-month="December"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navJanuary">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>January</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-info"
+                data-month="January"
+                >See projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navFebruary">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>February</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-info"
+                data-month="February"
+                >See projects</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-</footer>
-    
+    <div class="parallax-wrapper spring-bg container-fluid m-0 mt-3 p-0">
+      <div class="parallax-group">
+        <div class="parallax-layer spring-firstLayer"></div>
+        <div class="parallax-layer spring-secondLayer"></div>
+        <div class="parallax-layer spring-thirdLayer"></div>
+      </div>
+      <div class="parallax-content">
+        <section class="row section-month pb-5" id="navMarch">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>March</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-success"
+                data-month="March"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navApril">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>April</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-success"
+                data-month="April"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navMay">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>May</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-success"
+                data-month="May"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="parallax-wrapper summer-bg container-fluid m-0 mt-3 p-0">
+      <div class="parallax-group">
+        <div class="parallax-layer summer-firstLayer"></div>
+        <div class="parallax-layer summer-secondLayer"></div>
+        <div class="parallax-layer summer-thirdLayer"></div>
+      </div>
+      <div class="parallax-content">
+        <section class="row section-month pb-5" id="navJune">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>June</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-danger"
+                data-month="June"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navJuly">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>July</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-danger"
+                data-month="July"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navAugust">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>August</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-danger"
+                data-month="August"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="parallax-wrapper autumn-bg container-fluid mx-0 my-5 p-0">
+      <div class="parallax-group">
+        <div class="parallax-layer autumn-firstLayer"></div>
+        <div class="parallax-layer autumn-secondLayer"></div>
+        <div class="parallax-layer autumn-thirdLayer"></div>
+      </div>
+      <div class="set">
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves1.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves2.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves3.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves4.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves1.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves2.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves3.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves4.png" alt="" />
+        </div>
+      </div>
+      <div class="set secondSet">
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves1.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves2.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves3.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves4.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves1.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves2.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves3.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves4.png" alt="" />
+        </div>
+      </div>
+      <div class="set thirdSet">
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves1.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves2.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves3.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves4.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves1.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves2.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves3.png" alt="" />
+        </div>
+        <div class="leave">
+          <img src="assets/img/leaves/Leaves/leaves4.png" alt="" />
+        </div>
+      </div>
+      <div class="parallax-content">
+        <section class="row section-month pb-5" id="navSeptember">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>September</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-warning"
+                data-month="September"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navOctober">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>October</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-warning"
+                data-month="October"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="row section-month pb-5" id="navNovember">
+          <div
+            class="section-month-title d-flex flex-column align-items-center justify-content-center col-8 offset-2 text-center"
+          >
+            <h2>November</h2>
+            <div
+              class="btn-group btn-group-sm"
+              role="group"
+              aria-label="Basic example"
+            >
+              <a
+                data-tag-button
+                href="all.html"
+                class="btn btn-warning"
+                data-month="November"
+                >See the projects</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <div class="container-fluid justify-content-between p-3">
+        <div class="row justify-content-around">
+          <div class="col-md-4">
+            <h6>Description :</h6>
+            <p>
+              I've started my coding journey in September 2020 I'm doing my best
+              to learn as fast as I can !
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h6>Contact :</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/yannick-coopman-8022b0159/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/Yaco-99" target="_blank">GitHub</a>
+              </li>
+              <li>
+                <a href="mailto:coopman.yannick@gmail.com" target="_blank"
+                  >Coopman.yannick@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:0471577539" target="_blank">0471 57 75 39</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
