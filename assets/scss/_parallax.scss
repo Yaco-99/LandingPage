@@ -7,7 +7,15 @@
   background-size: 100vw 300vh;
 }
 .spring-bg {
-  background: url(../img/spring-bg.jpg) no-repeat;
+  background: url(../img/springBg.png) no-repeat;
+  background-size: 100vw 300vh;
+}
+.summer-bg {
+  background: url(../img/summerBg.png) no-repeat;
+  background-size: 100vw 300vh;
+}
+.autumn-bg {
+  background: url(../img/autumn-bg.jpg) no-repeat;
   background-size: 100vw 300vh;
 }
 .section-month {
@@ -81,11 +89,10 @@
       position: absolute;
       height: 400vh;
       width: 100vw;
-      bottom: 0;
+      bottom: 80vh;
       left: 0;
       background-image: url("../img/springFirst.png");
       background-repeat: no-repeat;
-      background-position: bottom;
       background-position: bottom;
       background-size: 100vw;
       z-index: 4;
@@ -95,11 +102,10 @@
       position: absolute;
       height: 400vh;
       width: 100vw;
-      bottom: -100vh;
+      bottom: 80vh;
       left: 0;
       background-image: url("../img/springSecond.png");
       background-repeat: no-repeat;
-      background-position: bottom;
       background-position: bottom;
       background-size: 100vw;
       z-index: 3;
@@ -109,11 +115,10 @@
       position: absolute;
       height: 400vh;
       width: 100vw;
-      bottom: -200vh;
+      bottom: 80vh;
       left: 0;
       background-image: url("../img/springThird.png");
       background-repeat: no-repeat;
-      background-position: bottom;
       background-position: bottom;
       background-size: 100vw;
       z-index: 2;
@@ -124,37 +129,40 @@
   .parallax-group {
     .summer-firstLayer {
       position: absolute;
-      height: 100vh;
+      height: 400vh;
       width: 100vw;
-      bottom: 0;
+      bottom: 150vh;
       left: 0;
-      background-image: url("../img/1.svg");
+      background-image: url("../img/summerFirst.png");
       background-repeat: no-repeat;
       background-position: bottom;
+      background-size: 100vw;
       z-index: -1;
       transform: translateZ(-1px) scale(2);
     }
     .summer-secondLayer {
       position: absolute;
-      height: 100vh;
+      height: 400vh;
       width: 100vw;
-      bottom: 0;
+      bottom: 150vh;
       left: 0;
-      background-image: url("../img/2.svg");
+      background-image: url("../img/summerSecond.png");
       background-repeat: no-repeat;
       background-position: bottom;
+      background-size: 100vw;
       z-index: -2;
       transform: translateZ(-2px) scale(3);
     }
     .summer-thirdLayer {
       position: absolute;
-      height: 100vh;
+      height: 400vh;
       width: 100vw;
-      bottom: 0;
+      bottom: 150vh;
       left: 0;
-      background-image: url("../img/3.svg");
+      background-image: url("../img/summerThird.png");
       background-repeat: no-repeat;
       background-position: bottom;
+      background-size: 100vw;
       z-index: -3;
       transform: translateZ(-3px) scale(4);
     }
@@ -163,38 +171,44 @@
   .parallax-group {
     .autumn-firstLayer {
       position: absolute;
-      height: 100vh;
+      height: 400vh;
       width: 100vw;
       bottom: 0;
       left: 0;
-      background-image: url("../img/1.svg");
+      background-image: url("../img/autumnFirst.png");
       background-repeat: no-repeat;
       background-position: bottom;
-      z-index: 3;
+      background-position: bottom;
+      background-size: 100vw;
+      z-index: 4;
       transform: translateZ(-1px) scale(2);
     }
     .autumn-secondLayer {
       position: absolute;
-      height: 100vh;
+      height: 400vh;
       width: 100vw;
-      bottom: 0;
+      bottom: -100vh;
       left: 0;
-      background-image: url("../img/2.svg");
+      background-image: url("../img/autumnSecond.png");
       background-repeat: no-repeat;
       background-position: bottom;
-      z-index: 2;
+      background-position: bottom;
+      background-size: 100vw;
+      z-index: 3;
       transform: translateZ(-2px) scale(3);
     }
     .autumn-thirdLayer {
       position: absolute;
-      height: 100vh;
+      height: 400vh;
       width: 100vw;
-      bottom: 0;
+      bottom: -200vh;
       left: 0;
-      background-image: url("../img/3.svg");
+      background-image: url("../img/autumnThird.png");
       background-repeat: no-repeat;
       background-position: bottom;
-      z-index: 1;
+      background-position: bottom;
+      background-size: 100vw;
+      z-index: 2;
       transform: translateZ(-3px) scale(4);
     }
   }

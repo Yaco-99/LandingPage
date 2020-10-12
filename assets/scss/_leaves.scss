@@ -1,0 +1,81 @@
+@mixin leaf($left, $animation, $delay) {
+  left: $left;
+  animation: animate $animation linear infinite;
+  animation-delay: $delay;
+}
+
+.set {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  .leave {
+    img {
+      height: 70px;
+      width: 70px;
+    }
+    position: absolute;
+    display: block;
+  }
+
+  .leave:nth-child(1) {
+    @include leaf(20%, 30s, -7s);
+  }
+  .leave:nth-child(2) {
+    @include leaf(50%, 40s, -5s);
+  }
+  .leave:nth-child(3) {
+    @include leaf(70%, 40s, 0);
+  }
+  .leave:nth-child(4) {
+    @include leaf(0%, 30s, -5s);
+  }
+  .leave:nth-child(5) {
+    @include leaf(85%, 36s, -10s);
+  }
+  .leave:nth-child(6) {
+    @include leaf(0%, 24s, 0);
+  }
+  .leave:nth-child(7) {
+    @include leaf(15%, 28s, 0);
+  }
+  .leave:nth-child(8) {
+    @include leaf(60%, 30s, 0);
+  }
+}
+.secondSet {
+  transform: scale(2) rotateY(180deg);
+  filter: blur(2px);
+}
+.thirdSet {
+  transform: scale(0.8) rotateX(180deg);
+  filter: blur(4px);
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    top: -10vh;
+    transform: translateX(20px) rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(-20px) rotate(45deg);
+  }
+  40% {
+    transform: translateX(-20px) rotate(90deg);
+  }
+  60% {
+    transform: translateX(-20px) rotate(180deg);
+  }
+  80% {
+    transform: translateX(-20px) rotate(180deg);
+  }
+  100% {
+    top: 410vh;
+    transform: translateX(-20px) rotate(225deg);
+  }
+}

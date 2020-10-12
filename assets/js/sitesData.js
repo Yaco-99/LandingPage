@@ -93,4 +93,11 @@ const septemberSites = [
     description: "Responsive site for @becode.",
     date: "14/09/2020",
   },
+  {
+    link: "https://yaco-99.github.io/restaurant-css-framework/index.html",
+    image: "assets/img/keller.png",
+    title: "Fake restaurant",
+    description: "Fake restaurant site using some js, bootstrap and scss",
+    date: "25/09/2020",
+  },
 ];
