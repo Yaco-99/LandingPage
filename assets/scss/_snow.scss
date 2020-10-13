@@ -48,6 +48,7 @@ $left: 0;
 }
 
 .snow {
+  will-change: transform;
   border-radius: 50%;
   opacity: 0.8;
   position: absolute;

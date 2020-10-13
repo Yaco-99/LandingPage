@@ -13,6 +13,7 @@
   left: 0;
   pointer-events: none;
   .leave {
+    will-change: transform;
     img {
       height: 70px;
       width: 70px;

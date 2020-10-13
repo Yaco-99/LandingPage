@@ -16,6 +16,7 @@
     transform-style: preserve-3d;
     overflow: hidden;
     .winter-firstLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -29,6 +30,7 @@
       transform: translateZ(-1px) scale(2);
     }
     .winter-secondLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -42,6 +44,7 @@
       transform: translateZ(-2px) scale(3);
     }
     .winter-thirdLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -58,6 +61,7 @@
 
   .parallax-group {
     .spring-firstLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -71,6 +75,7 @@
       transform: translateZ(-1px) scale(2);
     }
     .spring-secondLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -84,6 +89,7 @@
       transform: translateZ(-2px) scale(3);
     }
     .spring-thirdLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -100,6 +106,7 @@
 
   .parallax-group {
     .summer-firstLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -113,6 +120,7 @@
       transform: translateZ(-1px) scale(2);
     }
     .summer-secondLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -126,6 +134,7 @@
       transform: translateZ(-2px) scale(3);
     }
     .summer-thirdLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -142,6 +151,7 @@
 
   .parallax-group {
     .autumn-firstLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -156,6 +166,7 @@
       transform: translateZ(-1px) scale(2);
     }
     .autumn-secondLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
@@ -170,6 +181,7 @@
       transform: translateZ(-2px) scale(3);
     }
     .autumn-thirdLayer {
+      will-change: transform;
       position: absolute;
       height: 400vh;
       width: 100vw;
