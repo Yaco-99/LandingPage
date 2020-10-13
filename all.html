@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
     <title>Landing Page</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <script defer src="assets/js/sitesData.js"></script>
@@ -211,6 +207,19 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: ["Roboto:400"] },
+      };
+      (function () {
+        var wf = document.createElement("script");
+        wf.src = "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
+        wf.type = "text/javascript";
+        wf.async = "true";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
     <script>
       $(document).ready(function () {
         $("#searchInput").on("keyup", function () {
