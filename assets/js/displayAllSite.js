@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function displayTag() {
     indexMonth = allMonth.findIndex((el) => el.month == month);
+    if (indexMonth == -1) {
+      indexMonth = 0;
+      month = "January";
+    }
     tag = allMonth[indexMonth].season;
 
     tag == "winter"
