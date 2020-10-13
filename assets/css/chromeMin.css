@@ -12,7 +12,6 @@
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-
 .layer1 {
   width: 0.75rem;
   height: 0.75rem;
@@ -121,12 +120,10 @@
   -webkit-animation-duration: 6s;
   animation-duration: 6s;
 }
-
 .layer1.a {
   -webkit-animation-delay: -3s;
   animation-delay: -3s;
 }
-
 .layer2 {
   width: 0.5rem;
   height: 0.5rem;
@@ -235,12 +232,10 @@
   -webkit-animation-duration: 8s;
   animation-duration: 8s;
 }
-
 .layer2.a {
   -webkit-animation-delay: -4s;
   animation-delay: -4s;
 }
-
 .layer3 {
   width: 0.2rem;
   height: 0.2rem;
@@ -349,16 +344,14 @@
   -webkit-animation-duration: 10s;
   animation-duration: 10s;
 }
-
 .layer3.a {
   -webkit-animation-delay: -5s;
   animation-delay: -5s;
 }
-
 @-webkit-keyframes fall {
   0% {
-    -webkit-transform: translateY(0vh);
-    transform: translateY(0vh);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     left: 0;
   }
   25% {
@@ -377,11 +370,10 @@
     transform: translateY(400vh);
   }
 }
-
 @keyframes fall {
   0% {
-    -webkit-transform: translateY(0vh);
-    transform: translateY(0vh);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
     left: 0;
   }
   25% {
@@ -400,7 +392,6 @@
     transform: translateY(400vh);
   }
 }
-
 .set {
   display: block;
   position: absolute;
@@ -410,17 +401,14 @@
   left: 0;
   pointer-events: none;
 }
-
 .set .leave {
   will-change: transform;
   position: absolute;
 }
-
 .set .leave img {
   height: 70px;
   width: 70px;
 }
-
 .set .leave:nth-child(1) {
   left: 20%;
   -webkit-animation: animate 30s linear infinite;
@@ -428,7 +416,6 @@
   -webkit-animation-delay: -7s;
   animation-delay: -7s;
 }
-
 .set .leave:nth-child(2) {
   left: 50%;
   -webkit-animation: animate 40s linear infinite;
@@ -436,7 +423,6 @@
   -webkit-animation-delay: -5s;
   animation-delay: -5s;
 }
-
 .set .leave:nth-child(3) {
   left: 70%;
   -webkit-animation: animate 40s linear infinite;
@@ -444,15 +430,13 @@
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-
 .set .leave:nth-child(4) {
-  left: 0%;
+  left: 0;
   -webkit-animation: animate 30s linear infinite;
   animation: animate 30s linear infinite;
   -webkit-animation-delay: -5s;
   animation-delay: -5s;
 }
-
 .set .leave:nth-child(5) {
   left: 85%;
   -webkit-animation: animate 36s linear infinite;
@@ -460,15 +444,13 @@
   -webkit-animation-delay: -10s;
   animation-delay: -10s;
 }
-
 .set .leave:nth-child(6) {
-  left: 0%;
+  left: 0;
   -webkit-animation: animate 24s linear infinite;
   animation: animate 24s linear infinite;
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-
 .set .leave:nth-child(7) {
   left: 15%;
   -webkit-animation: animate 28s linear infinite;
@@ -476,7 +458,6 @@
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-
 .set .leave:nth-child(8) {
   left: 60%;
   -webkit-animation: animate 30s linear infinite;
@@ -484,27 +465,24 @@
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-
 .secondSet {
   -webkit-transform: scale(2) rotateY(180deg);
   transform: scale(2) rotateY(180deg);
   -webkit-filter: blur(2px);
   filter: blur(2px);
 }
-
 .thirdSet {
   -webkit-transform: scale(0.8) rotateX(180deg);
   transform: scale(0.8) rotateX(180deg);
   -webkit-filter: blur(4px);
   filter: blur(4px);
 }
-
 @-webkit-keyframes animate {
   0% {
     opacity: 0;
     top: -10vh;
-    -webkit-transform: translateX(20px) rotate(0deg);
-    transform: translateX(20px) rotate(0deg);
+    -webkit-transform: translateX(20px) rotate(0);
+    transform: translateX(20px) rotate(0);
   }
   10% {
     opacity: 1;
@@ -531,13 +509,12 @@
     transform: translateX(-20px) rotate(225deg);
   }
 }
-
 @keyframes animate {
   0% {
     opacity: 0;
     top: -10vh;
-    -webkit-transform: translateX(20px) rotate(0deg);
-    transform: translateX(20px) rotate(0deg);
+    -webkit-transform: translateX(20px) rotate(0);
+    transform: translateX(20px) rotate(0);
   }
   10% {
     opacity: 1;
@@ -564,7 +541,6 @@
     transform: translateX(-20px) rotate(225deg);
   }
 }
-
 @media screen and (min-width: 700px) {
   .parallax-content {
     position: absolute;
@@ -589,7 +565,7 @@
     width: 100vw;
     bottom: 150vh;
     left: 0;
-    background-image: url("../img/winterFirst.png");
+    background-image: url(../img/winterFirst.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -604,7 +580,7 @@
     width: 100vw;
     bottom: 150vh;
     left: 0;
-    background-image: url("../img/winterSecond.png");
+    background-image: url(../img/winterSecond.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -619,7 +595,7 @@
     width: 100vw;
     bottom: 150vh;
     left: 0;
-    background-image: url("../img/winterthird.webp");
+    background-image: url(../img/winterthird.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -634,7 +610,7 @@
     width: 100vw;
     bottom: 80vh;
     left: 0;
-    background-image: url("../img/springFirst.png");
+    background-image: url(../img/springFirst.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -649,7 +625,7 @@
     width: 100vw;
     bottom: 80vh;
     left: 0;
-    background-image: url("../img/springSecond.png");
+    background-image: url(../img/springSecond.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -664,7 +640,7 @@
     width: 100vw;
     bottom: 80vh;
     left: 0;
-    background-image: url("../img/springThird.webp");
+    background-image: url(../img/springThird.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -679,7 +655,7 @@
     width: 100vw;
     bottom: 150vh;
     left: 0;
-    background-image: url("../img/summerFirst.png");
+    background-image: url(../img/summerFirst.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -694,7 +670,7 @@
     width: 100vw;
     bottom: 150vh;
     left: 0;
-    background-image: url("../img/summerSecond.png");
+    background-image: url(../img/summerSecond.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -709,7 +685,7 @@
     width: 100vw;
     bottom: 150vh;
     left: 0;
-    background-image: url("../img/summerThird.webp");
+    background-image: url(../img/summerThird.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100vw;
@@ -724,7 +700,7 @@
     width: 100vw;
     bottom: 0;
     left: 0;
-    background-image: url("../img/autumnFirst.png");
+    background-image: url(../img/autumnFirst.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: bottom;
@@ -740,7 +716,7 @@
     width: 100vw;
     bottom: -100vh;
     left: 0;
-    background-image: url("../img/autumnSecond.png");
+    background-image: url(../img/autumnSecond.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: bottom;
@@ -756,7 +732,7 @@
     width: 100vw;
     bottom: -200vh;
     left: 0;
-    background-image: url("../img/autumnThird.webp");
+    background-image: url(../img/autumnThird.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: bottom;
@@ -766,4 +742,3 @@
     transform: translateZ(-3px) scale(4);
   }
 }
-/*# sourceMappingURL=chrome.css.map */
