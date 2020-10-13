@@ -8,7 +8,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script>
+      const is_chrome =
+        navigator.userAgent.toLocaleLowerCase().indexOf("chrome") > -1;
+      is_chrome
+        ? document.write(
+            '<link rel="stylesheet" href="assets/css/chrome.css" type="text/css" />'
+          )
+        : "not chrome";
+    </script>
     <script defer src="assets/js/pathScript.js"></script>
   </head>
 

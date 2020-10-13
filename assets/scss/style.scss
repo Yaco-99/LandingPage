@@ -2,10 +2,8 @@
 @import "firstSection";
 @import "parallax";
 @import "request";
-@import "snow";
 @import "stage";
 @import "variable_override";
-@import "leaves";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 html {
@@ -50,6 +48,9 @@ h1 {
   color: rgba(255, 255, 255, 0.6);
   background-color: hsl(0, 0%, 7%);
   margin-top: 2rem;
+}
+.set {
+  display: none;
 }
 
 @media screen and (min-width: 500px) {

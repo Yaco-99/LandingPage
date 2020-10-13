@@ -5,6 +5,7 @@
 }
 
 .set {
+  display: block;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -17,7 +18,6 @@
       width: 70px;
     }
     position: absolute;
-    display: block;
   }
 
   .leave:nth-child(1) {
