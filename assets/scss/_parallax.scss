@@ -3,20 +3,20 @@
   overflow: hidden;
 }
 .winter-bg {
-  background: url("../img/winter-bg.webp") no-repeat;
-  background-size: 100vw 300vh;
+  background: url("../img/winterBg.webp") center center no-repeat;
+  background-size: cover;
 }
 .spring-bg {
-  background: url("../img/springBg.webp") no-repeat;
-  background-size: 100vw 300vh;
+  background: url("../img/springBg.webp") center center no-repeat;
+  background-size: cover;
 }
 .summer-bg {
-  background: url("../img/summerBg.webp") no-repeat;
-  background-size: 100vw 300vh;
+  background: url("../img/SummerBg.webp") center center no-repeat;
+  background-size: cover;
 }
 .autumn-bg {
-  background: url("../img/autumn-bg.webp") no-repeat;
-  background-size: 100vw 300vh;
+  background: url("../img/autumnBg.webp") center center no-repeat;
+  background-size: cover;
 }
 .section-month {
   height: 100vh;

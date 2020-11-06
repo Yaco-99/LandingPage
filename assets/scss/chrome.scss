@@ -11,18 +11,18 @@
 
   .parallax-group {
     position: relative;
-    height: 400vh;
+    height: 350vh;
     box-sizing: border-box;
     transform-style: preserve-3d;
     overflow: hidden;
     .winter-firstLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 150vh;
+      bottom: 100vh;
       left: 0;
-      background-image: url("../img/winterFirst.png");
+      background-image: url("../img/winterFirstlayer.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -32,11 +32,11 @@
     .winter-secondLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 150vh;
+      bottom: 100vh;
       left: 0;
-      background-image: url("../img/winterSecond.png");
+      background-image: url("../img/winterSecondLayer.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -46,11 +46,11 @@
     .winter-thirdLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 150vh;
+      bottom: 100vh;
       left: 0;
-      background-image: url("../img/winterthird.webp");
+      background-image: url("../img/winterThirdLayer.webp");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -63,11 +63,11 @@
     .spring-firstLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
       bottom: 80vh;
       left: 0;
-      background-image: url("../img/springFirst.png");
+      background-image: url("../img/springFirstLayer.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -77,11 +77,11 @@
     .spring-secondLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
       bottom: 80vh;
       left: 0;
-      background-image: url("../img/springSecond.png");
+      background-image: url("../img/springSecondLayer.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -91,11 +91,11 @@
     .spring-thirdLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
       bottom: 80vh;
       left: 0;
-      background-image: url("../img/springThird.webp");
+      background-image: url("../img/springThirdLayer.webp");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -108,11 +108,11 @@
     .summer-firstLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 150vh;
+      bottom: 70vh;
       left: 0;
-      background-image: url("../img/summerFirst.png");
+      background-image: url("../img/SummerFirstLayer.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -122,11 +122,11 @@
     .summer-secondLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 150vh;
+      bottom: 70vh;
       left: 0;
-      background-image: url("../img/summerSecond.png");
+      background-image: url("../img/SummerSecondLayer.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -136,11 +136,11 @@
     .summer-thirdLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 150vh;
+      bottom: 70vh;
       left: 0;
-      background-image: url("../img/summerThird.webp");
+      background-image: url("../img/SummerThirdLayer.webp");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: 100vw;
@@ -153,13 +153,12 @@
     .autumn-firstLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: 0;
+      bottom: 60vh;
       left: 0;
-      background-image: url("../img/autumnFirst.png");
+      background-image: url("../img/autumnFirstLayer.png");
       background-repeat: no-repeat;
-      background-position: bottom;
       background-position: bottom;
       background-size: 100vw;
       z-index: 4;
@@ -168,13 +167,12 @@
     .autumn-secondLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: -100vh;
+      bottom: 60vh;
       left: 0;
-      background-image: url("../img/autumnSecond.png");
+      background-image: url("../img/autumnSecondLayer.png");
       background-repeat: no-repeat;
-      background-position: bottom;
       background-position: bottom;
       background-size: 100vw;
       z-index: 3;
@@ -183,13 +181,12 @@
     .autumn-thirdLayer {
       will-change: transform;
       position: absolute;
-      height: 400vh;
+      height: 350vh;
       width: 100vw;
-      bottom: -200vh;
+      bottom: 60vh;
       left: 0;
-      background-image: url("../img/autumnThird.webp");
+      background-image: url("../img/autumnThirdL.webp");
       background-repeat: no-repeat;
-      background-position: bottom;
       background-position: bottom;
       background-size: 100vw;
       z-index: 2;
