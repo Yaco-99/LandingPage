@@ -45,79 +45,22 @@
                 >2020</a
               >
               <div class="dropdown-menu">
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >January</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >February</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >March</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >April</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >May</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >June</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >July</a
-                >
+                <a class="dropdown-item" href="#navJanuary">January</a>
+                <a class="dropdown-item" href="#navFebruary">February</a>
+                <a class="dropdown-item" href="#navMarch">March</a>
+                <a class="dropdown-item" href="#navApril">April</a>
+                <a class="dropdown-item" href="#navMay">May</a>
+                <a class="dropdown-item" href="#navJune">June</a>
+                <a class="dropdown-item" href="#navJuly">July</a>
                 <a class="dropdown-item" href="#navAugust">August</a>
                 <a class="dropdown-item" href="#navSeptember">September</a>
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >October</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >November</a
-                >
-                <a
-                  class="dropdown-item disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >December</a
-                >
+                <a class="dropdown-item" href="#navOctober">October</a>
+                <a class="dropdown-item" href="#navNovember">November</a>
+                <a class="dropdown-item" href="#navDecember">December</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#navAbout">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="all.html">All</a>
@@ -707,14 +650,30 @@
       </div>
     </div>
 
+    <section id="navAbout">
+      <div class="container">
+        <div class="row">
+          <div class="about col col-md-6 offset-md-3">
+            <h2>About me.</h2>
+            <p>
+              Passionate about IT, I am currently learning web development at
+              Becode. I'm particularly fond of JavaScript and everything related
+              to algorithms. Future freelancer, I do my best to acquire a
+              maximum of experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="main-footer">
       <div class="container-fluid justify-content-between p-3">
         <div class="row justify-content-around">
           <div class="col-md-4">
             <h6>Description :</h6>
             <p>
-              I've started my coding journey in September 2020 I'm doing my best
-              to learn as fast as I can !
+              I've started my coding journey in September 2020 this landing page
+              regroup all my projects, I will keep it up to date.
             </p>
           </div>
 
@@ -767,18 +726,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script>
-      WebFontConfig = {
-        google: { families: ["Roboto:400"] },
-      };
-      (function () {
-        var wf = document.createElement("script");
-        wf.src = "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
-        wf.type = "text/javascript";
-        wf.async = "true";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(wf, s);
-      })();
-    </script>
+    <script defer src="assets/js/font.js"></script>
   </body>
 </html>
