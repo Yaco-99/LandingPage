@@ -213,28 +213,7 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script>
-      WebFontConfig = {
-        google: { families: ["Roboto:400"] },
-      };
-      (function () {
-        var wf = document.createElement("script");
-        wf.src = "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
-        wf.type = "text/javascript";
-        wf.async = "true";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(wf, s);
-      })();
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#searchInput").on("keyup", function () {
-          var value = $(this).val().toLowerCase();
-          $("#siteList .col-12").filter(function () {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-          });
-        });
-      });
-    </script>
+    <script defer src="assets/js/font.js"></script>
+    <script defer src="assets/js/search.js"></script>
   </body>
 </html>

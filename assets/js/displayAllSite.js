@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let month = sessionStorage.getItem("month");
   const target = document.getElementById("siteList");
   const tagArr = ["info", "success", "danger", "warning"];
-  const monthArr = [augustSites, septemberSites];
+  const monthArr = [augustSites, septemberSites, octoberSites, novemberSites];
   let index;
   let indexMonth;
 
@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
       : (index = 3);
 
     allMonth.splice(indexMonth, 1);
-    console.log(allMonth);
     month;
     document.getElementById(
       "allSite"
@@ -74,8 +73,10 @@ ${month}
         displaySites(1);
         break;
       case "October":
+        displaySites(2);
         break;
       case "November":
+        displaySites(3);
         break;
       case "December":
         break;

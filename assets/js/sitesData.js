@@ -101,3 +101,44 @@ const septemberSites = [
     date: "25/09/2020",
   },
 ];
+
+const octoberSites = [
+  {
+    link: "https://yaco-99.github.io/hangman/",
+    image: "assets/img/hangman.webp",
+    title: "Hangman",
+    description: "Hangman game",
+    date: "05/10/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/shooterGame/",
+    image: "assets/img/spaceShooter.webp",
+    title: "SpaceShooter",
+    description: "Shooter game",
+    date: "15/10/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/CookieClicker/",
+    image: "assets/img/cookieclicker.webp",
+    title: "Cookie Clicker",
+    description: "Cookie clicker game",
+    date: "27/10/2020",
+  },
+  {
+    link: "https://yaco-99.github.io/MasterMind/",
+    image: "assets/img/masterMind.webp",
+    title: "MasterMind",
+    description: "Master mind game",
+    date: "30/10/2020",
+  },
+];
+
+const novemberSites = [
+  {
+    link: "https://yaco-99.github.io/frontend-AllezCine/",
+    image: "assets/img/allezCine.webp",
+    title: "AllezCine",
+    description: "A movies site using the movie Database API",
+    date: "05/11/2020",
+  },
+];
